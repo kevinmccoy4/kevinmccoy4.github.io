@@ -15,17 +15,17 @@
 # in the templates via {{ site.myvariable }}.
 title: Commonplace
 email: kevinmccoy.cpa@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My online Commonplace Book. Where I collect, share, and discuss ideas.
+description: My online Commonplace Book. Where I collect, share, and discuss ideas.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-remote_theme: joebuhlig/jekyll-theme-collected
+
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+remote_theme: joebuhlig/jekyll-theme-collected
 plugins:
   - jekyll-feed
 
